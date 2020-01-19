@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/databases/ConnectToMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectToMongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/databases/UnitTestConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/UnitTestConnectDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,46 +51,7 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataReader">
-    <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToMongoDB" />
-      <module name="MidTermWeekDaysDecember2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
-      <module name="MidTermWeekDaysDecember2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
-      <module name="MidTermWeekDaysDecember2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codelab.status.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UseQueue">
     <configuration name="DataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.DataReader" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -122,13 +78,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
+      <module name="MidTermWeekDaysDecember2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseMap" />
+      <module name="MidTermWeekDaysDecember2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseQueue" />
+      <module name="MidTermWeekDaysDecember2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseQueue" />
+        <item itemvalue="Application.UseMap" />
+        <item itemvalue="Application.UseArrayList" />
         <item itemvalue="Application.DataReader" />
         <item itemvalue="Application.UnitTestConnectDB" />
-        <item itemvalue="Application.ConnectToSqlDB" />
-        <item itemvalue="Application.ConnectToMongoDB" />
-        <item itemvalue="Application.CsvReader" />
       </list>
     </recent_temporary>
   </component>
@@ -168,26 +163,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1096" height="373" key="GridCell.Tab.0.bottom" timestamp="1579274864134">
-      <screen x="0" y="23" width="2560" height="1325" />
+    <state width="1096" height="373" key="GridCell.Tab.0.bottom" timestamp="1579404683321">
+      <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state width="1096" height="373" key="GridCell.Tab.0.bottom/0.23.2560.1323@0.23.2560.1323" timestamp="1579272524003" />
-    <state width="1096" height="373" key="GridCell.Tab.0.bottom/0.23.2560.1325@0.23.2560.1325" timestamp="1579274864134" />
-    <state width="1096" height="373" key="GridCell.Tab.0.center" timestamp="1579274864134">
-      <screen x="0" y="23" width="2560" height="1325" />
+    <state width="1096" height="373" key="GridCell.Tab.0.bottom/0.23.2560.1323@0.23.2560.1323" timestamp="1579404683321" />
+    <state width="1096" height="373" key="GridCell.Tab.0.bottom/0.23.2560.1325@0.23.2560.1325" timestamp="1579404638494" />
+    <state width="1096" height="373" key="GridCell.Tab.0.center" timestamp="1579404683320">
+      <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state width="1096" height="373" key="GridCell.Tab.0.center/0.23.2560.1323@0.23.2560.1323" timestamp="1579272524002" />
-    <state width="1096" height="373" key="GridCell.Tab.0.center/0.23.2560.1325@0.23.2560.1325" timestamp="1579274864134" />
-    <state width="1096" height="373" key="GridCell.Tab.0.left" timestamp="1579274864133">
-      <screen x="0" y="23" width="2560" height="1325" />
+    <state width="1096" height="373" key="GridCell.Tab.0.center/0.23.2560.1323@0.23.2560.1323" timestamp="1579404683320" />
+    <state width="1096" height="373" key="GridCell.Tab.0.center/0.23.2560.1325@0.23.2560.1325" timestamp="1579404638493" />
+    <state width="1096" height="373" key="GridCell.Tab.0.left" timestamp="1579404683319">
+      <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state width="1096" height="373" key="GridCell.Tab.0.left/0.23.2560.1323@0.23.2560.1323" timestamp="1579272524001" />
-    <state width="1096" height="373" key="GridCell.Tab.0.left/0.23.2560.1325@0.23.2560.1325" timestamp="1579274864133" />
-    <state width="1096" height="373" key="GridCell.Tab.0.right" timestamp="1579274864134">
-      <screen x="0" y="23" width="2560" height="1325" />
+    <state width="1096" height="373" key="GridCell.Tab.0.left/0.23.2560.1323@0.23.2560.1323" timestamp="1579404683319" />
+    <state width="1096" height="373" key="GridCell.Tab.0.left/0.23.2560.1325@0.23.2560.1325" timestamp="1579404638492" />
+    <state width="1096" height="373" key="GridCell.Tab.0.right" timestamp="1579404683320">
+      <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state width="1096" height="373" key="GridCell.Tab.0.right/0.23.2560.1323@0.23.2560.1323" timestamp="1579272524002" />
-    <state width="1096" height="373" key="GridCell.Tab.0.right/0.23.2560.1325@0.23.2560.1325" timestamp="1579274864134" />
+    <state width="1096" height="373" key="GridCell.Tab.0.right/0.23.2560.1323@0.23.2560.1323" timestamp="1579404683320" />
+    <state width="1096" height="373" key="GridCell.Tab.0.right/0.23.2560.1325@0.23.2560.1325" timestamp="1579404638493" />
     <state x="768" y="301" key="SettingsEditor" timestamp="1579144386232">
       <screen x="0" y="23" width="2560" height="1320" />
     </state>
