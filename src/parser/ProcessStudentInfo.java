@@ -59,31 +59,39 @@ public class ProcessStudentInfo {
 				seleniumStudents = xmlReader.parseData(tag, pathSelenium);
 
 				//Parse Data using parseData method and then store data into Qtp ArrayList.
-				
+				qtpStudents = xmlReader.parseData(tag, pathQtp);
+
 				//add Selenium ArrayList data into map.
+				list.put("Selenium Students", seleniumStudents);
 
 				//add Qtp ArrayList data into map.
-		
-		      	
-				//Retrieve map data and display output.
+				list.put("QTP Student", qtpStudents);
 
+
+				//Retrieve map data and display output.
+				for (Map.Entry<String, List<Student>> s : list.entrySet()) {
+					System.out.println(s);
+				}
 
 
 				//Store Qtp data into Qtp table in Database
-				connectToMongoDB.insertIntoMongoDB(seleniumStudents,"qtp");
+				connectToMongoDB.insertIntoMongoDB(seleniumStudents, "qtp");
 				//connectToSqlDB.insertDataFromArrayListToMySql(seleniumStudents, "qtp","studentList");
 
 				//Store Selenium data into Selenium table in Database
 
 				//Retrieve Qtp students from Database
-               List<Student> stList = connectToMongoDB.readStudentListFromMongoDB("qtp");
-               for(Student st:stList){
-               	  System.out.println(st.getFirstName()+" "+st.getLastName()+" "+st.getScore()+" "+st.getId());
-			   }
+				List<Student> stList = connectToMongoDB.readStudentListFromMongoDB("qtp");
+				for (Student st : stList) {
+					System.out.println(st.getFirstName() + " " + st.getLastName() + " " + st.getScore() + " " + st.getId());
+				}
 
-			   //Retrieve Selenium students from Database
+				//Retrieve Selenium students from Database
 
-
+				List<Student> selList = connectToMongoDB.readStudentListFromMongoDB("Selenium");
+				for (Student sts : stList) {
+					System.out.println(sts.getFirstName() + " " + sts.getLastName() + " " + sts.getId());
+				}
 			}
 
 }
