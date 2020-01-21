@@ -1,6 +1,5 @@
 package design;
 
-import databases.ConnectToMongoDB;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,9 +20,9 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		    EmployeeInfo emp1 = new EmployeeInfo( "MR OSPINA",305);
-			EmployeeInfo emp2 = new EmployeeInfo("MR SELENIUM", 205);
-			EmployeeInfo emp3 = new EmployeeInfo("JULIAN", 234);
+		    Employeeinfo emp1 = new Employeeinfo( "MR OSPINA",305);
+			Employeeinfo emp2 = new Employeeinfo("MR SELENIUM", 205);
+			Employeeinfo emp3 = new Employeeinfo("JULIAN", 234);
 			String objective = "become a better employee";
 			String target = "become number 1 employee of the company";
 			emp1.assignDepartment("QA Tester");

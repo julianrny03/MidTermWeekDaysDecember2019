@@ -74,7 +74,6 @@ public class XmlReader {
 		return grade;
 
 
-		return grade;	
 	}
 	
 }

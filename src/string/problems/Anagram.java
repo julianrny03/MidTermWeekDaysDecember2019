@@ -1,7 +1,7 @@
 package string.problems;
 
 
-public class aqAnagram {
+public class Anagram {
 
     public static void main(String[] args) {
         //Write a Java Program to check if the two String are Anagram. Two String are called Anagram when there is
@@ -10,7 +10,7 @@ public class aqAnagram {
         checkAnagram("MARY", "ARMY");
     }
     public static void checkAnagram(String word, String Anagram){
-        if (isAnagram(word, Anagram) ==true){
+        if (isAnagram(word, Anagram) == true){
             System.out.println(Anagram + " is an anagram of "+ word);
         }else {
             System.out.println(Anagram + " is not anagram of  "+ word);

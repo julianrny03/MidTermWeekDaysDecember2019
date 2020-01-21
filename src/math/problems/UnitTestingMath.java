@@ -1,6 +1,6 @@
 package math.problems;
 
-import org.testing.Assert;
+import org.testng.Assert;
 
 public class UnitTestingMath {
     public static void main(String[] args) {
@@ -20,3 +20,5 @@ public class UnitTestingMath {
 
         Assert.assertEquals(120,Factorial.fact(5));
         Assert.assertEquals(120,Factorial.fact(5));
+    }
+}
